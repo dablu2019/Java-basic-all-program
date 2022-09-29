@@ -2,6 +2,7 @@
 class MultiThread extends Thread{
 	public void run(){
 		try{
+System.out.println("Hi all");
 			System.out.println("Thread "+ Thread.currentThread().getId() +" is runninng");
 		}
 		catch(Exception e){
